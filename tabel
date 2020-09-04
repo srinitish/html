@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> table </title>
+        <table>
+            <style>
+               < background-color="black: 0;";
+
+        </style>
+        </table>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <th>     owner     </th>
+                <th>     breed     </th>
+                <th>    cat age     </th>
+                <th>    cat weight  </th>
+        
+        <tr>
+            <td>nitish</td>
+            <td>russian</td>
+            <td>1year</td>
+            <td>4kg</td>
+        </tr>
+
+        <tr>
+            <td>nikesh</td>
+            <td>tamilnadu</td>
+            <td>1month</td>
+            <td>800g</td>
+        </tr>
+
+        <tr>
+            <td>priya</td>
+            <td>amerian</td>
+            <td>2year</td>
+            <td>4kg</td>
+        </tr>
+
+        <tr>
+            <td>nitish</td>
+            <td>russian</td>
+            <td>1year</td>
+            <td>6kg</td>
+        </tr>
+    </table>
+    </body>
+</html>
