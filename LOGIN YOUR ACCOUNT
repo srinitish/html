@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            create your account
+        </title>
+        <style>
+            body{
+                background:url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg);
+                background-size: 10000px;
+                color: gold;
+            }
+           .a1{
+               background:black;
+               border: dotted white;
+               margin-left: 25%;
+               margin-right: 25%;
+               padding-bottom:13% ;
+               line-height: 2em;
+               font font-family: Impact, Charcoal, sans-serif;
+            
+           } 
+           input{
+               border: black 1px;
+               
+           }
+           .h1{
+               margin-left: 30%;
+           }
+         .dob{
+             padding-top: 10px; ;
+         }
+         .img{
+             margin-left: 35%;
+
+
+         }
+         input [type=submit]{
+             background: #4CAF50;
+             border-radius: 4px;
+         }
+        a :active{
+             
+        color:red;
+         }
+         a :hover{
+            
+            background-color: blue;
+         }
+            
+            a :visited{
+                background: black;
+                color: white;
+            }
+            .all{
+                margin-left:30% ;
+                color: black;
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="all"><h1>ARUL JOTHI SUPERMARKET</h1></div>
+            <div class="a1">
+
+                <h1 class="h1">create your account</h1>
+                <div class="img">
+                <img src="https://i.pinimg.com/736x/6b/08/76/6b087603862a127ea290e0a47ed932bf.jpg"wridth="100px" height="100px" alt="profile image" >
+              </div>
+                <div>
+                    <form >
+                        <label for="first name"> FIRST NAME:</label>
+                        <input type="text"name="first name"required>
+                        
+                        <label for="last name"> LAST NAME:</label>
+                        <input type="text"name="last name"required>
+                        <div>
+                            <label for="gender">MALE</label>
+                            <input type="radio"name="gender"value=choise1>
+                            <label for="gender">FEMALE</label>
+                            <input type="radio"name="gender"value=choise2>
+                            <label for="gender">OTHER</label>
+                            <input type="radio"name="gender"value=choise3>
+                            
+                        </div>
+                        <div>
+                            <label for="email">EMAIL ADDRESS:</label>
+                            <input type="email"name="email"required>
+                            <label for="password">password:</label>
+                            <input type="password"name="password"required>
+                        </div>
+                        <div  class="dob">
+                            <label for="mounth">DATE OF BIRTH</label>
+                            <select> 
+                            <option value="0" selected disabled>month</option>
+                            <option  name="jan">january</option> 
+                            <option name="feb" >febuary</option> 
+                            <option name="march" >march</option> 
+                            <option name="april" >april</option> 
+                            <option name="may" >may</option> 
+                            <option name="jume" >june</option> 
+                            <option name="july" >july</option> 
+                            <option name="august" >august</option> 
+                            <option name="sep" >september</option> 
+                            <option name="oct" >october</option> 
+                            <option name="nov" >november</option> 
+                            <option name="dec">december</option>
+                             </select>
+        
+        
+                          
+                             <select> 
+                             <option value="0" selected disabled>date</option>
+                             <option  name="1">1</option> 
+                             <option name="2" >2</option> 
+                             <option name="3" >3</option> 
+                             <option name="4" >4</option> 
+                             <option name="5" >5</option> 
+                             <option name="6" >6</option> 
+                             <option name="7" >7</option> 
+                             <option name="8" >8</option> 
+                             <option name="9" >9</option> 
+                             <option name="11">10</option> 
+                             <option name="12">11</option> 
+                             <option name="13">13</option>
+                             <option name="14">14</option>
+                             <option name="15">15</option>
+                             <option name="16">16</option>
+                             <option name="17">17</option>
+                             <option name="18">18</option>
+                             <option name="19">19</option>
+                             <option name="20">20</option>
+                             <option name="21">21</option>
+                             <option name="22">22</option>
+                             <option name="23">23</option>
+                             <option name="24">24</option>
+                             <option name="25">25</option>
+                             <option name="26">26</option>
+                             <option name="27">27</option>
+                             <option name="28">28</option>
+                             <option name="29">29</option>
+                             <option name="30">30</option>
+                             <option name="31">31</option>
+                              </select>
+        
+        
+                            
+                             <select> 
+                             <option value="0" selected disabled>year</option>
+                             <option name="1989">1989</option> 
+                             <option name="1990">1990</option> 
+                             <option name="1991">1991</option> 
+                             <option name="1992">1992</option> 
+                             <option name="1993">1993</option> 
+                             <option name="1994">1994</option> 
+                             <option name="1995">1995</option> 
+                             <option name="1996">1996</option> 
+                             <option name="1997">19967</option> 
+                             <option name="1998">1998</option> 
+                             <option name="1999">1999</option> 
+                             <option name="2000">2000</option>
+                             <option name="2001">2001</option>
+                             <option name="2002">2002</option>
+                             <option name="2003">2003</option>
+                             <option name="2004">2004</option>
+                             <option name="2005">2005</option>
+                             <option name="2006">2006</option>
+                             <option name="2007">2007</option>
+                             <option name="2008">2008</option>
+                             <option name="2009">2009</option>
+                             <option name="2010">2010</option>
+                             <option name="2011">2011</option>
+                             <option name="2012">2012</option>
+                             <option name="2013">2013</option>
+                             <option name="2014">2014</option>
+                             <option name="2015">2015</option>
+                             <option name="2016">2016</option>
+                             <option name="2017">2017</option>
+                             <option name="2018">2018</option>
+                             <option name="2019">2019</option>
+                             <option name="2020">2020</option>
+                              </select>
+                        </div>
+                        <div>
+                            <h4>terms and conditions</h4>
+                            <p>
+                                This section outlines our relationship with you. It includes a description of the Service,<br> defines our Agreement, and names your service provider. Key updates:
+                            </p>
+                            <ul>
+                               <li> Service Provider. Your service provider is now Google LLC. </li>
+                               <li>Policies. We have added a link to the Policy, Safety and Copyright Policies, and our Advertising on YouTube Policies,<br> which all form part of the Agreement. These are the policies that underpin our Community Guidelines,<br> and we wanted to make sure to call out this detail to you upfront in our Terms.</li>
+                               <li>Affiliates. To ensure you understand exactly who we mean when we talk about our group companies, we’ve included <br> a definition of our “Affiliates”, meaning the companies in the Alphabet corporate group.</li>
+                            </ul>
+                            <label for="agree">I agree all terms and conditions</label>
+                            <input type="checkbox"name="agree" required>
+                            
+                        </div>
+                        <div>
+                                        <a href=http://2pos.in/en/128800/10676/arul-jothi-supermarket"><button type="submit">submit</button></a>        
+                        </div>
+        
+        
+                           
+            
+        
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+        
+
+    </body>
+</html>
